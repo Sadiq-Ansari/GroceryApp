@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grocery List</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Grocery List</h1>
+
+      <input type="text" name="input" id="input" />
+      <div class="buttons">
+        <button id="addNeed" value="Need">Need</button>
+        <button id="addHave" value="Have">Have</button>
+      </div>
+
+      <div class="need-items">
+        <h2 class="title2">Need:</h2>
+        <div class="item">
+          <div><input type="checkbox" name="item" /> Meat</div>
+          <a href="#">&#10006;</a>
+        </div>
+        <div class="item">
+          <div><input type="checkbox" name="item" /> Milk</div>
+          <a href="#">&#10006;</a>
+        </div>
+        <div class="item">
+          <div><input type="checkbox" name="item" /> Veggies</div>
+          <a href="#">&#10006;</a>
+        </div>
+      </div>
+
+      <div class="have-items">
+        <h2 class="title2">Have:</h2>
+        <div class="item">
+          <div><input type="checkbox" name="item" checked /> Bananas</div>
+          <a href="#">&#10006;</a>
+        </div>
+        <div class="item">
+          <div><input type="checkbox" name="item" checked /> Apples</div>
+          <a href="#">&#10006;</a>
+        </div>
+        <div class="item">
+          <div><input type="checkbox" name="item" checked /> Dahi</div>
+          <a href="#">&#10006;</a>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
